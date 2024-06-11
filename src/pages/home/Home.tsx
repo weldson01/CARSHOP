@@ -1,5 +1,6 @@
+import { Header } from "../../layout/header/Header"
 
 
 export const Home = ()=>{
-    return <h1>hi there</h1>
+    return <><Header/></>
 }
