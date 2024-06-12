@@ -8,6 +8,9 @@ export default {
         primary: '#A91D3A',
         second: '#C73659',
         white_bg: 'D9D9D9'
+      },
+      spacing:{
+        img_tall: '350px'
       }
     },
   },
