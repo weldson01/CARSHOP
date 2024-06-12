@@ -1,6 +1,7 @@
 import { Header } from "../../layout/header/Header"
 import { BannerCarOffer } from "./components/BannerCarOffer"
 import { Search } from "./components/Search"
+import { Spacing } from "./components/Spacing"
 
 
 export const Home = () => {
@@ -9,6 +10,7 @@ export const Home = () => {
         <main className="flex flex-col">
             <Search />
             <BannerCarOffer/>
+            <Spacing/>
         </main>
     </>
 }

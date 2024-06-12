@@ -4,7 +4,7 @@ import carImg from "/src/assets/CarBanner1.jpg"
 export const BannerCarOffer = () => {
 
     return (
-        <div className="min-w-full relative pt-16">
+        <div className="min-w-full h-banner_h relative pt-16 overflow-hidden">
             <img src={carImg} className="min-w-full max-h-fit absolute top-0" />
             <div className="absolute w-full">
                 <div className="flex w-full justify-center gap-32">

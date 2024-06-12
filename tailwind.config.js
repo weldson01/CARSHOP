@@ -10,7 +10,8 @@ export default {
         white_bg: 'D9D9D9'
       },
       spacing:{
-        img_tall: '350px'
+        img_tall: '350px',
+        banner_h: '700px'
       }
     },
   },
