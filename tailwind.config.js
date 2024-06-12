@@ -11,7 +11,8 @@ export default {
       },
       spacing:{
         img_tall: '350px',
-        banner_h: '700px'
+        banner_h: '700px',
+        card_h: '320px',
       }
     },
   },

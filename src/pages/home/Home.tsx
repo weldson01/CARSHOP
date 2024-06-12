@@ -1,5 +1,6 @@
 import { Header } from "../../layout/header/Header"
 import { BannerCarOffer } from "./components/BannerCarOffer"
+import { CatalogCar } from "./components/CatalogCar"
 import { Search } from "./components/Search"
 import { Spacing } from "./components/Spacing"
 
@@ -11,6 +12,7 @@ export const Home = () => {
             <Search />
             <BannerCarOffer/>
             <Spacing/>
+            <CatalogCar/>
         </main>
     </>
 }
