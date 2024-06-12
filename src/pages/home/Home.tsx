@@ -1,3 +1,4 @@
+import { Footer } from "../../layout/footer/Footer"
 import { Header } from "../../layout/header/Header"
 import { BannerCarOffer } from "./components/BannerCarOffer"
 import { CatalogCar } from "./components/CatalogCar"
@@ -13,6 +14,7 @@ export const Home = () => {
             <BannerCarOffer/>
             <Spacing/>
             <CatalogCar/>
+            <Footer/>
         </main>
     </>
 }
