@@ -1,6 +1,7 @@
-import { Card } from "../../../components/Card"
+import { LinkButton } from "../../../components/LinkButton"
 import { ListCards } from "../../../components/ListCards"
 import { MockData } from "../../../services/MockData"
+import { Spacing } from "./Spacing"
 
 
 export const CatalogCar = () => {
@@ -15,7 +16,8 @@ export const CatalogCar = () => {
                 Mercedes
             </h3>
             <ListCards list={MockData.carList}/>
-
+            <Spacing/>
+            <LinkButton path="" text="grandes marcas"/>
         </div>
     )
 }
